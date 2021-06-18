@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>React App Project </title>
+    <script src="https://unpkg.com/react@16/umd/react.production.min.js"></script>
+  <script src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js"></script>
+  <script src="https://unpkg.com/babel-standalone@6.15.0/babel.min.js"></script>
+</head>
+<body>
+    <script>
+        class myCar {
+                constructor(name, brand, year, model, mileage) {
+                    this.name = name,
+                        this.brand = brand,
+                        this.year = year,
+                        this.model = model,
+                        this.mileage = mileage;
+                }
+
+                present() {
+                    return 'I have a' + this.year + this.name + 'that is ' + this.brand + this.year + 'with' + this.mileage
+
+                        + 'mileage';
+                }
+                show() {
+                    return this.present()
+                }
+            }
+            myNewCar = new myCar("toyota", "toyota", 2021, "new engine", 1000);
+            myNewCar.show();
+
+
+
+    </script>
+        
+
+        </div>
+    </script>
+</body>
+</html>
